@@ -32,7 +32,10 @@ h1, h2, h3 {
   height:100%;
   width:960px;
   margin: auto;
+}
 
+.contactnavcontent {
+  width: 50%;
 }
 
 .navdiv {
@@ -51,10 +54,19 @@ h1, h2, h3 {
 
   display: flex;
   justify-content: center;
+  padding: 0 .5rem;
+}
+
+.contactmyname {
+  flex-direction: column;
 }
 
 .nameheader {
   align-self: center;
+}
+
+.contactnameheader {
+  font-size: 1.35rem;
 }
 
 .navlist {
@@ -99,12 +111,21 @@ h1, h2, h3 {
   
 }
 
+.contactformcontainer {
+  width: 50%;
+  border: .5px solid #cccccc;
+}
+
 .aboutmeheader {
   width: 100%;
   /* position: relative; */
   color: #4aaaa5;
   margin-top: 2rem;
   left:1.5rem;
+}
+
+.contactheader {
+  font-size: 1.35rem;
 }
 
 .underline {
@@ -119,7 +140,7 @@ h1, h2, h3 {
   width: 200px;
   height: 200px;
   background-image: url("https://images.unsplash.com/photo-1490481920145-fc78891bbb99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-  margin-bottom: 1.5rem;
+  margin-bottom: .8rem;
   float: left;
 }
 
@@ -151,6 +172,43 @@ h1, h2, h3 {
   bottom: 0;
   left: 50%;
   position: absolute;
-  margin-bottom: .2rem;
+  margin-bottom: .5rem;
   font-size: .9rem;
+}
+
+/* ======================formstyles============== */
+
+.formcontent {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.forminput {
+  width: 100%;
+  color: #a1a1a1;
+  margin-top: .2rem;
+  font-size: .7rem;
+  font-weight: 700;
+  height: 1.25rem;
+  margin-bottom: 1rem;
+  border: .4px solid #cccccc;
+}
+
+.inputname {
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.formtextarea {
+  height:150px;
+  color: #a1a1a1;
+  border: .4px solid #cccccc;
+}
+
+.formbutton {
+  background: #4aaaa5;
+  color: white;
+  border: none;
+  padding: .25rem .5rem;
+  /* text-align: center; */
 }
